@@ -1,0 +1,42 @@
+{
+  "encounterID": 3183,
+  "displayName": "Midnight Falls",
+  "zone": "Your Realm",
+  "reportCode": "REPLACE_WITH_A_REPORT_CODE",
+  "difficulty": 5,
+  "voidAfterDeaths": 2,
+  "progressionOnly": true,
+  "guild": {
+    "name": "YOUR GUILD NAME",
+    "serverSlug": "your-realm",
+    "serverRegion": "US"
+  },
+  "mechanics": [
+    {
+      "id": "starsplinter",
+      "label": "Starsplinter",
+      "color": "#66ddaa",
+      "abilityIds": [1281473],
+      "eventType": "damage",
+      "countMode": "events"
+    },
+    {
+      "id": "heavens-glaives",
+      "label": "Heaven's Glaives",
+      "color": "#ffcc44",
+      "abilityIds": [1254076],
+      "eventType": "damage",
+      "countMode": "events",
+      "debounceMs": 2500
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths",
+      "color": "#ff5555",
+      "abilityIds": [],
+      "eventType": "death",
+      "countMode": "events",
+      "excludeAbilityIds": [1253031, 1254398, 1284699]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "encounterID": 0,
+  "displayName": "REPLACE_ME",
+  "zone": "REPLACE_ME",
+  "reportCode": "REPLACE_WITH_A_REPORT_CODE",
+  "mechanics": [
+    {
+      "id": "fire",
+      "label": "Stood in Fire",
+      "color": "#ff5555",
+      "abilityIds": [12345],
+      "eventType": "damage",
+      "countMode": "events"
+    }
+  ]
+}

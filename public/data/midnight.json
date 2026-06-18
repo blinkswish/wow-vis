@@ -1,0 +1,6549 @@
+{
+  "zone": "Demo Realm",
+  "boss": "Demo Boss",
+  "encounterID": 9999,
+  "reportCode": "DEMOCODE",
+  "generatedAt": "2026-06-18T00:00:00Z",
+  "mechanics": [
+    {
+      "id": "fire",
+      "label": "Stood in Fire",
+      "color": "#ff5555"
+    },
+    {
+      "id": "soak",
+      "label": "Missed Soak",
+      "color": "#55aaff"
+    },
+    {
+      "id": "cleave",
+      "label": "Cleave Hit",
+      "color": "#ffcc44"
+    },
+    {
+      "id": "deaths",
+      "label": "Deaths",
+      "color": "#ff5555"
+    }
+  ],
+  "players": [
+    "Backstabby",
+    "Bloodfury",
+    "Emberwing",
+    "Felblade",
+    "Lightwell",
+    "Mistweave",
+    "Moonfyre",
+    "Pyroclast",
+    "Quickshot",
+    "Regrowth",
+    "Shadowtide",
+    "Stormfang",
+    "Tankadin",
+    "Wreckage"
+  ],
+  "playerInfo": {
+    "Tankadin": {
+      "class": "Paladin",
+      "role": "tank"
+    },
+    "Bloodfury": {
+      "class": "DeathKnight",
+      "role": "tank"
+    },
+    "Lightwell": {
+      "class": "Priest",
+      "role": "healer"
+    },
+    "Mistweave": {
+      "class": "Monk",
+      "role": "healer"
+    },
+    "Regrowth": {
+      "class": "Druid",
+      "role": "healer"
+    },
+    "Pyroclast": {
+      "class": "Mage",
+      "role": "dps"
+    },
+    "Shadowtide": {
+      "class": "Warlock",
+      "role": "dps"
+    },
+    "Stormfang": {
+      "class": "Shaman",
+      "role": "dps"
+    },
+    "Quickshot": {
+      "class": "Hunter",
+      "role": "dps"
+    },
+    "Backstabby": {
+      "class": "Rogue",
+      "role": "dps"
+    },
+    "Wreckage": {
+      "class": "Warrior",
+      "role": "dps"
+    },
+    "Felblade": {
+      "class": "DemonHunter",
+      "role": "dps"
+    },
+    "Emberwing": {
+      "class": "Evoker",
+      "role": "dps"
+    },
+    "Moonfyre": {
+      "class": "Druid",
+      "role": "dps"
+    }
+  },
+  "voidAfterDeaths": 2,
+  "pulls": [
+    {
+      "pull": 1,
+      "fightId": 100,
+      "startTime": 0,
+      "durationMs": 90000,
+      "kill": false,
+      "bossPercent": 100,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 122312
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 74640
+          },
+          "Lightwell": {
+            "count": 3,
+            "damage": 148742
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 78748
+          },
+          "Regrowth": {
+            "count": 4,
+            "damage": 195572
+          },
+          "Pyroclast": {
+            "count": 5,
+            "damage": 226744
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 195622
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 74368
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 113081
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 106118
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 83873
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 163401
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 187873
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 101703
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 3,
+            "damage": 333193
+          },
+          "Mistweave": {
+            "count": 4,
+            "damage": 489617
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 226700
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 193742
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 574274
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 367883
+          },
+          "Quickshot": {
+            "count": 5,
+            "damage": 519863
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 101230
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 252173
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 389920
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 102788
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 304319
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 5,
+            "damage": 351781
+          },
+          "Bloodfury": {
+            "count": 4,
+            "damage": 219891
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 62562
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 238715
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 155924
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 182784
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 303401
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 113739
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 274362
+          },
+          "Backstabby": {
+            "count": 5,
+            "damage": 329536
+          },
+          "Wreckage": {
+            "count": 3,
+            "damage": 182558
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 132548
+          },
+          "Emberwing": {
+            "count": 5,
+            "damage": 410160
+          },
+          "Moonfyre": {
+            "count": 4,
+            "damage": 270894
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 2,
+      "fightId": 101,
+      "startTime": 600000,
+      "durationMs": 96000,
+      "kill": false,
+      "bossPercent": 97.3,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 43169
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 106076
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 39250
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 103354
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 93848
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 89669
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 74241
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 89005
+          },
+          "Quickshot": {
+            "count": 6,
+            "damage": 266309
+          },
+          "Backstabby": {
+            "count": 5,
+            "damage": 244426
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 81427
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 110116
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 138285
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 51954
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 219286
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 110126
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 107825
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 304957
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 439766
+          },
+          "Stormfang": {
+            "count": 5,
+            "damage": 514412
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 458108
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 116200
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 146396
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 150490
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 203188
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 216318
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 132994
+          },
+          "Bloodfury": {
+            "count": 7,
+            "damage": 426538
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 158793
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 188802
+          },
+          "Regrowth": {
+            "count": 4,
+            "damage": 264011
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 146761
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 214689
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 82860
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 195385
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 131988
+          },
+          "Wreckage": {
+            "count": 3,
+            "damage": 219724
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 61201
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 170245
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 154353
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 3,
+      "fightId": 102,
+      "startTime": 1200000,
+      "durationMs": 102000,
+      "kill": false,
+      "bossPercent": 94.5,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 51320
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 132512
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 47830
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 147441
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 90055
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 78759
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 143115
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 79575
+          },
+          "Quickshot": {
+            "count": 7,
+            "damage": 348814
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 106903
+          },
+          "Wreckage": {
+            "count": 3,
+            "damage": 150577
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 94653
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 104847
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 92600
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 3,
+            "damage": 453345
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 96394
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 205892
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 296462
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 479225
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 263694
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 535494
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 126046
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 275750
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 207598
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 108283
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 384844
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 211361
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 144106
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 56538
+          },
+          "Mistweave": {
+            "count": 5,
+            "damage": 298308
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 140928
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 173722
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 325616
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 74118
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 285889
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 223238
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 133076
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 145354
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 120790
+          },
+          "Moonfyre": {
+            "count": 6,
+            "damage": 417105
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 4,
+      "fightId": 103,
+      "startTime": 1800000,
+      "durationMs": 108000,
+      "kill": false,
+      "bossPercent": 91.8,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 39740
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 88368
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 50670
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 108147
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 34410
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 118025
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 181730
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 75628
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 73542
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 110352
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 38163
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 188217
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 185136
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 47821
+          }
+        },
+        "soak": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 292679
+          },
+          "Lightwell": {
+            "count": 3,
+            "damage": 309136
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 108774
+          },
+          "Regrowth": {
+            "count": 5,
+            "damage": 666606
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 403862
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 506262
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 343967
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 270438
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 386850
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 291031
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 193625
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 103825
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 291503
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 215920
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 162320
+          },
+          "Lightwell": {
+            "count": 4,
+            "damage": 303957
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 139058
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 134667
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 162009
+          },
+          "Shadowtide": {
+            "count": 5,
+            "damage": 265656
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 53236
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 201207
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 228688
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 115051
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 149292
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 145957
+          },
+          "Moonfyre": {
+            "count": 4,
+            "damage": 214287
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 5,
+      "fightId": 104,
+      "startTime": 2400000,
+      "durationMs": 114000,
+      "kill": false,
+      "bossPercent": 89,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 52184
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 35894
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 35604
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 45937
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 107857
+          },
+          "Pyroclast": {
+            "count": 4,
+            "damage": 195743
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 162738
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 76824
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 201563
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 75087
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 73546
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 143416
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 107532
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 104728
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 228350
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 269335
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 234108
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 420596
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 483493
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 223469
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 601771
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 118641
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 192039
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 204098
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 451926
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 263961
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 123839
+          },
+          "Bloodfury": {
+            "count": 4,
+            "damage": 269311
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 63732
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 116021
+          },
+          "Regrowth": {
+            "count": 5,
+            "damage": 408125
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 149116
+          },
+          "Shadowtide": {
+            "count": 5,
+            "damage": 401621
+          },
+          "Stormfang": {
+            "count": 4,
+            "damage": 273916
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 159253
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 107379
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 127151
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 205443
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 64804
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 140666
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 6,
+      "fightId": 105,
+      "startTime": 3000000,
+      "durationMs": 120000,
+      "kill": false,
+      "bossPercent": 86.3,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 39016
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 101455
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 34118
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 41035
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 77967
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 87718
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 156800
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 88950
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 108807
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 74103
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 78964
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 138638
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 175607
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 88957
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 197140
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 205070
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 101239
+          },
+          "Pyroclast": {
+            "count": 4,
+            "damage": 455435
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 393969
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 210940
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 581015
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 127698
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 195416
+          },
+          "Felblade": {
+            "count": 5,
+            "damage": 582141
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 301955
+          },
+          "Moonfyre": {
+            "count": 7,
+            "damage": 903044
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 189727
+          },
+          "Bloodfury": {
+            "count": 4,
+            "damage": 293191
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 74870
+          },
+          "Mistweave": {
+            "count": 5,
+            "damage": 339422
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 145803
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 206119
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 166853
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 58662
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 294014
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 227654
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 59513
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 105628
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 153893
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 102751
+          }
+        },
+        "deaths": {
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 7,
+      "fightId": 106,
+      "startTime": 3600000,
+      "durationMs": 126000,
+      "kill": false,
+      "bossPercent": 83.5,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 40787
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 81528
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 42813
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 72490
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 104861
+          },
+          "Pyroclast": {
+            "count": 5,
+            "damage": 270963
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 153032
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 99431
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 134388
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 88707
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 81129
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 144659
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 104939
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 50600
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 3,
+            "damage": 448874
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 133697
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 217321
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 241749
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 277235
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 403994
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 201581
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 140327
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 147212
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 266109
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 265702
+          },
+          "Moonfyre": {
+            "count": 4,
+            "damage": 391324
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 318197
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 156425
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 110184
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 202169
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 75331
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 246908
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 133482
+          },
+          "Stormfang": {
+            "count": 6,
+            "damage": 426922
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 118699
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 105036
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 105804
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 77956
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 68165
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 161048
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 8,
+      "fightId": 107,
+      "startTime": 4200000,
+      "durationMs": 132000,
+      "kill": false,
+      "bossPercent": 80.8,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 47548
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 35064
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 44417
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 94580
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 53781
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 155270
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 175121
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 83973
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 103080
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 124490
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 106309
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 129319
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 134049
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 48778
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 229089
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 238319
+          },
+          "Regrowth": {
+            "count": 5,
+            "damage": 718338
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 123287
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 386191
+          },
+          "Stormfang": {
+            "count": 4,
+            "damage": 411742
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 274060
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 97490
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 232456
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 459534
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 303121
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 287171
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 302786
+          },
+          "Bloodfury": {
+            "count": 4,
+            "damage": 282600
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 103405
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 160515
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 70370
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 208411
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 248397
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 70153
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 219371
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 124962
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 137424
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 77941
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 79714
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 227273
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 9,
+      "fightId": 108,
+      "startTime": 4800000,
+      "durationMs": 138000,
+      "kill": false,
+      "bossPercent": 78.1,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 43226
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 103733
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 53699
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 86702
+          },
+          "Regrowth": {
+            "count": 3,
+            "damage": 105181
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 54581
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 156600
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 149600
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 157168
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 35683
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 41091
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 119507
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 203435
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 99265
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 141666
+          },
+          "Mistweave": {
+            "count": 4,
+            "damage": 542157
+          },
+          "Regrowth": {
+            "count": 5,
+            "damage": 740967
+          },
+          "Pyroclast": {
+            "count": 4,
+            "damage": 469923
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 214725
+          },
+          "Stormfang": {
+            "count": 4,
+            "damage": 589054
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 520812
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 199217
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 147867
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 131589
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 300008
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 422982
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 282268
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 229397
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 115802
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 206934
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 61218
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 183147
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 249076
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 163599
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 290163
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 157100
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 55628
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 69588
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 67249
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 159559
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 10,
+      "fightId": 109,
+      "startTime": 5400000,
+      "durationMs": 144000,
+      "kill": false,
+      "bossPercent": 75.3,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 45916
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 84840
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 46214
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 93426
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 99474
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 104088
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 69726
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 107184
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 106794
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 138675
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 80659
+          },
+          "Felblade": {
+            "count": 5,
+            "damage": 195531
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 114650
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 44307
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 290945
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 117535
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 126133
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 286544
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 444035
+          },
+          "Stormfang": {
+            "count": 4,
+            "damage": 389828
+          },
+          "Quickshot": {
+            "count": 6,
+            "damage": 674604
+          },
+          "Backstabby": {
+            "count": 3,
+            "damage": 442554
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 103909
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 306867
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 271103
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 334078
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 305732
+          },
+          "Bloodfury": {
+            "count": 5,
+            "damage": 395980
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 140598
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 145888
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 163254
+          },
+          "Pyroclast": {
+            "count": 6,
+            "damage": 320884
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 195122
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 104847
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 158700
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 153425
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 63271
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 124207
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 207090
+          },
+          "Moonfyre": {
+            "count": 6,
+            "damage": 395771
+          }
+        },
+        "deaths": {
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 11,
+      "fightId": 110,
+      "startTime": 6000000,
+      "durationMs": 150000,
+      "kill": false,
+      "bossPercent": 72.6,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 50098
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 44285
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 47910
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 77755
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 38689
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 53409
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 125733
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 75999
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 215364
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 73274
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 39136
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 81772
+          },
+          "Emberwing": {
+            "count": 6,
+            "damage": 316368
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 38298
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 208742
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 199189
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 192048
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 308129
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 467254
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 440973
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 348992
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 128002
+          },
+          "Wreckage": {
+            "count": 3,
+            "damage": 437952
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 271813
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 242903
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 408159
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 325350
+          },
+          "Bloodfury": {
+            "count": 7,
+            "damage": 525844
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 51580
+          },
+          "Mistweave": {
+            "count": 7,
+            "damage": 531613
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 162681
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 226394
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 311052
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 76857
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 204698
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 130146
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 56500
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 155758
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 61121
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 146040
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 12,
+      "fightId": 111,
+      "startTime": 6600000,
+      "durationMs": 156000,
+      "kill": false,
+      "bossPercent": 69.8,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 48012
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 94930
+          },
+          "Lightwell": {
+            "count": 5,
+            "damage": 226974
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 150434
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 41102
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 96930
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 107940
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 105429
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 84053
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 81113
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 103842
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 77210
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 150599
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 53691
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 236590
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 114100
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 128148
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 246680
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 308047
+          },
+          "Stormfang": {
+            "count": 5,
+            "damage": 612997
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 293934
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 146550
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 141362
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 258358
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 563058
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 294293
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 300898
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 158541
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 58475
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 170015
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 166254
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 160646
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 275324
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 75660
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 80144
+          },
+          "Backstabby": {
+            "count": 4,
+            "damage": 247200
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 71643
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 55283
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 80519
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 143091
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 13,
+      "fightId": 112,
+      "startTime": 7200000,
+      "durationMs": 162000,
+      "kill": false,
+      "bossPercent": 67.1,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 51243
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 89820
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 42003
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 123407
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 49503
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 49849
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 138435
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 91417
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 129452
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 71914
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 39557
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 39662
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 68236
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 45987
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 253627
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 122979
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 130941
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 272678
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 451714
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 309788
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 458159
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 110952
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 124787
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 193321
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 232767
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 452047
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 214485
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 164819
+          },
+          "Lightwell": {
+            "count": 4,
+            "damage": 259966
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 117387
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 63645
+          },
+          "Pyroclast": {
+            "count": 6,
+            "damage": 364224
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 223204
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 83068
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 146333
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 153112
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 81140
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 148525
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 114303
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 206706
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 14,
+      "fightId": 113,
+      "startTime": 7800000,
+      "durationMs": 168000,
+      "kill": false,
+      "bossPercent": 64.3,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 5,
+            "damage": 188380
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 75487
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 35682
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 69110
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 40688
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 47039
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 113782
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 34882
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 114089
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 97813
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 108867
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 118342
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 123899
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 40119
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 282588
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 154543
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 241173
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 235569
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 218167
+          },
+          "Stormfang": {
+            "count": 6,
+            "damage": 793998
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 262156
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 121664
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 145903
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 246908
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 263801
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 199112
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 328952
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 194784
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 123666
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 106632
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 71311
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 117295
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 108798
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 54450
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 152943
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 63170
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 52877
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 63426
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 130394
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 111500
+          }
+        },
+        "deaths": {
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 15,
+      "fightId": 114,
+      "startTime": 8400000,
+      "durationMs": 174000,
+      "kill": false,
+      "bossPercent": 61.6,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 48110
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 100075
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 48543
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 68834
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 43847
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 96955
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 94401
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 35393
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 110649
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 74867
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 42346
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 95156
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 79847
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 36966
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 4,
+            "damage": 409587
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 117377
+          },
+          "Regrowth": {
+            "count": 3,
+            "damage": 319690
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 212931
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 265358
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 257662
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 538536
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 142117
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 109400
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 206066
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 101731
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 220169
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 221541
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 245848
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 69196
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 123832
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 143570
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 104042
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 106847
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 53703
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 122451
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 111680
+          },
+          "Wreckage": {
+            "count": 3,
+            "damage": 209995
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 59508
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 79106
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 214825
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 16,
+      "fightId": 115,
+      "startTime": 9000000,
+      "durationMs": 180000,
+      "kill": false,
+      "bossPercent": 58.9,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 50156
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 49118
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 34288
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 79819
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 97756
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 102701
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 115827
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 104856
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 162825
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 45693
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 33896
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 47614
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 73057
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 48028
+          }
+        },
+        "soak": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 425803
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 218911
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 153284
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 97114
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 97680
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 106419
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 398042
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 345959
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 153247
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 245086
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 122176
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 252273
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 251721
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 184957
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 245821
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 58758
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 160594
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 70773
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 64531
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 154786
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 53473
+          },
+          "Quickshot": {
+            "count": 6,
+            "damage": 415844
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 76055
+          },
+          "Wreckage": {
+            "count": 4,
+            "damage": 217246
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 152444
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 71574
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 224609
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 17,
+      "fightId": 116,
+      "startTime": 9600000,
+      "durationMs": 186000,
+      "kill": false,
+      "bossPercent": 56.1,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 33874
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 45900
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 46255
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 87752
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 34112
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 41464
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 78647
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 52366
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 96382
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 72014
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 40044
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 91890
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 83796
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 39152
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 146158
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 114270
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 139462
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 231318
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 399900
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 264871
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 521346
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 117926
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 138310
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 139045
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 132267
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 218022
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 146237
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 133756
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 103843
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 115109
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 68270
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 118233
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 193625
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 77882
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 75611
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 162865
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 113337
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 104311
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 141781
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 79270
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 18,
+      "fightId": 117,
+      "startTime": 10200000,
+      "durationMs": 192000,
+      "kill": false,
+      "bossPercent": 53.4,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 37367
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 99296
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 42501
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 79088
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 49395
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 41090
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 81664
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 71847
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 106569
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 70666
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 42231
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 86775
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 80527
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 50795
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 242822
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 116118
+          },
+          "Regrowth": {
+            "count": 2,
+            "damage": 306743
+          },
+          "Pyroclast": {
+            "count": 4,
+            "damage": 436997
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 100788
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 332013
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 240472
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 97319
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 102217
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 142089
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 236832
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 321489
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 133528
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 82091
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 57512
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 159203
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 69287
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 107737
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 222180
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 59495
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 111559
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 51974
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 126553
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 64233
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 121334
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 111803
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 19,
+      "fightId": 118,
+      "startTime": 10800000,
+      "durationMs": 198000,
+      "kill": false,
+      "bossPercent": 50.6,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 39805
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 38923
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 44495
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 46483
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 40832
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 39449
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 75983
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 85843
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 74947
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 39882
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 39155
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 53557
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 142872
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 54463
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 233000
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 101147
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 153547
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 108999
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 331847
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 333198
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 267548
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 146678
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 135921
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 125997
+          },
+          "Emberwing": {
+            "count": 5,
+            "damage": 510902
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 147504
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 150014
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 124481
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 61938
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 164984
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 81535
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 201217
+          },
+          "Shadowtide": {
+            "count": 4,
+            "damage": 254516
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 53675
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 187234
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 112919
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 155140
+          },
+          "Felblade": {
+            "count": 6,
+            "damage": 424764
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 83034
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 130998
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 20,
+      "fightId": 119,
+      "startTime": 11400000,
+      "durationMs": 204000,
+      "kill": false,
+      "bossPercent": 47.9,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 47330
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 38041
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 34579
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 78965
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 41386
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 36601
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 40946
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 36570
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 39973
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 50591
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 75879
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 101554
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 105996
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 44768
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 294116
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 100873
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 149466
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 155946
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 139639
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 378228
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 196933
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 150918
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 147328
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 105859
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 149376
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 131944
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 130037
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 214483
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 81130
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 193078
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 74217
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 124844
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 199435
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 200069
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 106460
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 140131
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 63396
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 296596
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 67471
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 240372
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 21,
+      "fightId": 120,
+      "startTime": 12000000,
+      "durationMs": 210000,
+      "kill": false,
+      "bossPercent": 45.1,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 41164
+          },
+          "Bloodfury": {
+            "count": 5,
+            "damage": 190784
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 42901
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 89573
+          },
+          "Regrowth": {
+            "count": 4,
+            "damage": 192720
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 49751
+          },
+          "Shadowtide": {
+            "count": 5,
+            "damage": 173310
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 75636
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 88680
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 51666
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 45643
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 94961
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 88339
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 44455
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 140964
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 101714
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 113263
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 284925
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 203576
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 245454
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 382290
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 128961
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 120943
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 104132
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 102549
+          },
+          "Moonfyre": {
+            "count": 4,
+            "damage": 468650
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 247200
+          },
+          "Bloodfury": {
+            "count": 3,
+            "damage": 194143
+          },
+          "Lightwell": {
+            "count": 4,
+            "damage": 303252
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 127014
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 70965
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 143089
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 105054
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 53177
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 68446
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 109054
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 133142
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 54950
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 60324
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 143948
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 22,
+      "fightId": 121,
+      "startTime": 12600000,
+      "durationMs": 216000,
+      "kill": false,
+      "bossPercent": 42.4,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 48798
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 72481
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 52927
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 108703
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 48258
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 52571
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 100576
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 34576
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 89324
+          },
+          "Backstabby": {
+            "count": 4,
+            "damage": 164875
+          },
+          "Wreckage": {
+            "count": 3,
+            "damage": 103837
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 88179
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 38138
+          },
+          "Moonfyre": {
+            "count": 4,
+            "damage": 168292
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 118838
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 109774
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 121164
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 193092
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 150886
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 251871
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 465119
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 122489
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 116274
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 139949
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 119504
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 206240
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 5,
+            "damage": 400831
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 139558
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 66195
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 111810
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 79765
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 69091
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 157397
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 82252
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 73351
+          },
+          "Backstabby": {
+            "count": 4,
+            "damage": 332140
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 74157
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 63114
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 53548
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 123297
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 23,
+      "fightId": 122,
+      "startTime": 13200000,
+      "durationMs": 222000,
+      "kill": false,
+      "bossPercent": 39.7,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 37137
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 37529
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 43265
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 53084
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 36403
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 41636
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 36792
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 40012
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 82776
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 47148
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 53571
+          },
+          "Felblade": {
+            "count": 5,
+            "damage": 201505
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 70623
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 53080
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 101542
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 155931
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 145711
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 144693
+          },
+          "Shadowtide": {
+            "count": 5,
+            "damage": 564879
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 231885
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 331461
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 124653
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 128211
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 143803
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 293574
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 104752
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 114438
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 76332
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 222324
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 69470
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 138267
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 151847
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 62701
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 54145
+          },
+          "Wreckage": {
+            "count": 5,
+            "damage": 415365
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 58107
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 156765
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 52254
+          }
+        },
+        "deaths": {
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 24,
+      "fightId": 123,
+      "startTime": 13800000,
+      "durationMs": 228000,
+      "kill": false,
+      "bossPercent": 36.9,
+      "byMechanic": {
+        "fire": {
+          "Bloodfury": {
+            "count": 1,
+            "damage": 46202
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 50212
+          },
+          "Mistweave": {
+            "count": 4,
+            "damage": 174703
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 41488
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 39557
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 107203
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 36187
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 93603
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 44921
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 107508
+          },
+          "Felblade": {
+            "count": 2,
+            "damage": 108373
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 81265
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 42703
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 119959
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 97488
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 132667
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 133711
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 144708
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 211893
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 426210
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 117047
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 136288
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 126583
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 103247
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 298947
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 3,
+            "damage": 159497
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 63690
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 65924
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 220819
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 65526
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 59049
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 206177
+          },
+          "Stormfang": {
+            "count": 5,
+            "damage": 405535
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 154953
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 78524
+          },
+          "Wreckage": {
+            "count": 5,
+            "damage": 307012
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 56852
+          },
+          "Emberwing": {
+            "count": 5,
+            "damage": 261338
+          },
+          "Moonfyre": {
+            "count": 5,
+            "damage": 283852
+          }
+        },
+        "deaths": {
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 25,
+      "fightId": 124,
+      "startTime": 14400000,
+      "durationMs": 234000,
+      "kill": false,
+      "bossPercent": 34.2,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 36464
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 34130
+          },
+          "Lightwell": {
+            "count": 4,
+            "damage": 189900
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 52639
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 52853
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 47387
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 39530
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 46685
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 95559
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 36293
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 46967
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 45250
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 42401
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 38500
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 110077
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 122516
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 122944
+          },
+          "Shadowtide": {
+            "count": 6,
+            "damage": 641067
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 288438
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 194643
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 147184
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 141303
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 120850
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 147638
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 216209
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 81577
+          },
+          "Bloodfury": {
+            "count": 5,
+            "damage": 304270
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 137268
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 246600
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 60349
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 82776
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 182601
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 73000
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 106078
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 54666
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 76879
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 68120
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 61011
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 67314
+          }
+        },
+        "deaths": {
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 26,
+      "fightId": 125,
+      "startTime": 15000000,
+      "durationMs": 240000,
+      "kill": false,
+      "bossPercent": 31.4,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 51139
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 44298
+          },
+          "Lightwell": {
+            "count": 4,
+            "damage": 159676
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 34135
+          },
+          "Regrowth": {
+            "count": 3,
+            "damage": 137908
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 48174
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 97880
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 109264
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 90051
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 54523
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 35901
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 46682
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 67480
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 53288
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 105876
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 131079
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 102301
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 97335
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 246057
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 408476
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 310525
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 113679
+          },
+          "Wreckage": {
+            "count": 2,
+            "damage": 226786
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 108738
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 154318
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 225924
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 67473
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 128191
+          },
+          "Lightwell": {
+            "count": 5,
+            "damage": 370493
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 110103
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 74593
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 68954
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 61423
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 62528
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 82522
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 54255
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 60781
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 52594
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 127845
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 27,
+      "fightId": 126,
+      "startTime": 15600000,
+      "durationMs": 246000,
+      "kill": false,
+      "bossPercent": 28.7,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 44948
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 34908
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 49642
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 53829
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 45263
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 53305
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 45293
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 40060
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 107706
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 52465
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 44510
+          },
+          "Felblade": {
+            "count": 5,
+            "damage": 260312
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 97956
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 41880
+          }
+        },
+        "soak": {
+          "Bloodfury": {
+            "count": 3,
+            "damage": 347296
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 311928
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 119529
+          },
+          "Regrowth": {
+            "count": 4,
+            "damage": 396489
+          },
+          "Pyroclast": {
+            "count": 4,
+            "damage": 542298
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 281693
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 126178
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 99208
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 114594
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 108544
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 116455
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 130629
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 286472
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 108214
+          },
+          "Bloodfury": {
+            "count": 4,
+            "damage": 297957
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 75492
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 104259
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 64747
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 74053
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 144813
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 52513
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 66052
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 58601
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 69487
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 59578
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 110056
+          }
+        },
+        "deaths": {
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 28,
+      "fightId": 127,
+      "startTime": 16200000,
+      "durationMs": 252000,
+      "kill": false,
+      "bossPercent": 25.9,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 43960
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 44447
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 34392
+          },
+          "Regrowth": {
+            "count": 3,
+            "damage": 161273
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 48691
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 47330
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 48317
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 100355
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 41014
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 38165
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 42339
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 44684
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 44403
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 2,
+            "damage": 296983
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 155007
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 99231
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 138639
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 293185
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 147589
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 102133
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 143123
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 141138
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 120385
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 151668
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 60367
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 122565
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 81013
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 72388
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 76680
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 52982
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 120029
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 66558
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 118800
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 58927
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 61847
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 69265
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 70134
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 147538
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 29,
+      "fightId": 128,
+      "startTime": 16800000,
+      "durationMs": 258000,
+      "kill": false,
+      "bossPercent": 23.2,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 53883
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 34367
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 49471
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 33893
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 49207
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 37358
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 54448
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 51690
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 188112
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 53851
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 44231
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 34494
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 41758
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 39068
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 4,
+            "damage": 401469
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 123712
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 97599
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 214542
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 247586
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 274184
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 150020
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 130522
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 100496
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 107636
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 109160
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 140060
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 53816
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 71394
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 57671
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 71971
+          },
+          "Pyroclast": {
+            "count": 5,
+            "damage": 261745
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 80732
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 157251
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 81232
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 58935
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 69736
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 53692
+          },
+          "Emberwing": {
+            "count": 5,
+            "damage": 406447
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 152524
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 30,
+      "fightId": 129,
+      "startTime": 17400000,
+      "durationMs": 264000,
+      "kill": false,
+      "bossPercent": 20.5,
+      "byMechanic": {
+        "fire": {
+          "Bloodfury": {
+            "count": 1,
+            "damage": 54188
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 38998
+          },
+          "Mistweave": {
+            "count": 5,
+            "damage": 231296
+          },
+          "Pyroclast": {
+            "count": 2,
+            "damage": 97640
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 35360
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 41293
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 44457
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 37107
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 41854
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 46483
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 89948
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 39285
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 152552
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 146889
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 112813
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 115128
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 271117
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 211292
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 133248
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 103862
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 137488
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 311836
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 130755
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 82170
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 78749
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 73914
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 62528
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 228497
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 235225
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 145186
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 60610
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 81119
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 59712
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 241323
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 82457
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 123055
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 31,
+      "fightId": 130,
+      "startTime": 18000000,
+      "durationMs": 270000,
+      "kill": false,
+      "bossPercent": 17.7,
+      "byMechanic": {
+        "fire": {
+          "Bloodfury": {
+            "count": 1,
+            "damage": 40752
+          },
+          "Mistweave": {
+            "count": 4,
+            "damage": 151756
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 34989
+          },
+          "Pyroclast": {
+            "count": 3,
+            "damage": 118466
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 87569
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 40306
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 162120
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 36697
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 33693
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 37095
+          },
+          "Emberwing": {
+            "count": 5,
+            "damage": 192625
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 108403
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 115497
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 134684
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 104062
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 147632
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 116678
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 127477
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 288846
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 99079
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 131745
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 112494
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 126600
+          },
+          "Moonfyre": {
+            "count": 5,
+            "damage": 495323
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 59558
+          },
+          "Bloodfury": {
+            "count": 2,
+            "damage": 117946
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 73326
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 82032
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 68781
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 75017
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 76549
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 54422
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 56631
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 67251
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 75095
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 82001
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 63027
+          },
+          "Moonfyre": {
+            "count": 2,
+            "damage": 163700
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 32,
+      "fightId": 131,
+      "startTime": 18600000,
+      "durationMs": 276000,
+      "kill": false,
+      "bossPercent": 15,
+      "byMechanic": {
+        "fire": {
+          "Bloodfury": {
+            "count": 1,
+            "damage": 45307
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 33994
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 71348
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 49885
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 34417
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 41151
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 50111
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 46731
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 47847
+          },
+          "Moonfyre": {
+            "count": 3,
+            "damage": 158395
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 145618
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 138103
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 141285
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 110596
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 155463
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 117824
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 249679
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 141844
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 153064
+          },
+          "Emberwing": {
+            "count": 3,
+            "damage": 295780
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 139729
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 102775
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 70531
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 69354
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 116575
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 79033
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 58383
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 75639
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 78970
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 103016
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 68334
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 60501
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 71526
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 51603
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 62727
+          }
+        },
+        "deaths": {
+          "Quickshot": {
+            "count": 1,
+            "damage": 0
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 33,
+      "fightId": 132,
+      "startTime": 19200000,
+      "durationMs": 282000,
+      "kill": false,
+      "bossPercent": 12.2,
+      "byMechanic": {
+        "fire": {
+          "Bloodfury": {
+            "count": 1,
+            "damage": 40114
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 43257
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 43248
+          },
+          "Regrowth": {
+            "count": 3,
+            "damage": 137702
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 52206
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 43615
+          },
+          "Stormfang": {
+            "count": 5,
+            "damage": 175363
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 51753
+          },
+          "Backstabby": {
+            "count": 5,
+            "damage": 208073
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 39470
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 130744
+          },
+          "Emberwing": {
+            "count": 5,
+            "damage": 202186
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 40725
+          }
+        },
+        "soak": {
+          "Bloodfury": {
+            "count": 4,
+            "damage": 454986
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 124735
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 128797
+          },
+          "Pyroclast": {
+            "count": 4,
+            "damage": 439588
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 107551
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 112577
+          },
+          "Quickshot": {
+            "count": 4,
+            "damage": 616836
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 149421
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 118309
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 111633
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 129745
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 109084
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 4,
+            "damage": 321834
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 63950
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 58150
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 76742
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 80026
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 153120
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 55988
+          },
+          "Quickshot": {
+            "count": 3,
+            "damage": 182268
+          },
+          "Backstabby": {
+            "count": 4,
+            "damage": 323130
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 68696
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 64342
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 66612
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 81432
+          }
+        },
+        "deaths": {
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 34,
+      "fightId": 133,
+      "startTime": 19800000,
+      "durationMs": 288000,
+      "kill": false,
+      "bossPercent": 9.5,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 40282
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 41383
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 41879
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 49152
+          },
+          "Stormfang": {
+            "count": 4,
+            "damage": 168498
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 39265
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 37949
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 40711
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 51673
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 38875
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 39639
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 104637
+          },
+          "Mistweave": {
+            "count": 4,
+            "damage": 392820
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 140168
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 155439
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 126606
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 307161
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 131130
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 97727
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 123002
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 97246
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 122592
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 110768
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 69408
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 78360
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 78914
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 60894
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 71653
+          },
+          "Shadowtide": {
+            "count": 2,
+            "damage": 133357
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 80187
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 68565
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 161922
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 75259
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 205839
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 162945
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 70983
+          }
+        },
+        "deaths": {
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          },
+          "Bloodfury": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 35,
+      "fightId": 134,
+      "startTime": 20400000,
+      "durationMs": 294000,
+      "kill": false,
+      "bossPercent": 6.7,
+      "byMechanic": {
+        "fire": {
+          "Tankadin": {
+            "count": 2,
+            "damage": 70072
+          },
+          "Lightwell": {
+            "count": 2,
+            "damage": 88248
+          },
+          "Mistweave": {
+            "count": 1,
+            "damage": 34321
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 39767
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 52379
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 37981
+          },
+          "Backstabby": {
+            "count": 1,
+            "damage": 46516
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 40695
+          },
+          "Felblade": {
+            "count": 3,
+            "damage": 146534
+          },
+          "Emberwing": {
+            "count": 4,
+            "damage": 154541
+          },
+          "Moonfyre": {
+            "count": 5,
+            "damage": 249822
+          }
+        },
+        "soak": {
+          "Lightwell": {
+            "count": 1,
+            "damage": 153221
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 110256
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 132920
+          },
+          "Shadowtide": {
+            "count": 1,
+            "damage": 116733
+          },
+          "Stormfang": {
+            "count": 1,
+            "damage": 147814
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 240734
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 100719
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 96599
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 132801
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 104665
+          }
+        },
+        "cleave": {
+          "Tankadin": {
+            "count": 1,
+            "damage": 70055
+          },
+          "Bloodfury": {
+            "count": 4,
+            "damage": 281115
+          },
+          "Lightwell": {
+            "count": 1,
+            "damage": 51569
+          },
+          "Mistweave": {
+            "count": 2,
+            "damage": 110350
+          },
+          "Pyroclast": {
+            "count": 1,
+            "damage": 62860
+          },
+          "Shadowtide": {
+            "count": 3,
+            "damage": 187917
+          },
+          "Quickshot": {
+            "count": 1,
+            "damage": 72490
+          },
+          "Backstabby": {
+            "count": 2,
+            "damage": 117877
+          },
+          "Wreckage": {
+            "count": 1,
+            "damage": 68291
+          },
+          "Felblade": {
+            "count": 1,
+            "damage": 54991
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 78999
+          },
+          "Moonfyre": {
+            "count": 1,
+            "damage": 58319
+          }
+        },
+        "deaths": {
+          "Shadowtide": {
+            "count": 1,
+            "damage": 0
+          },
+          "Emberwing": {
+            "count": 1,
+            "damage": 0
+          }
+        }
+      }
+    },
+    {
+      "pull": 36,
+      "fightId": 135,
+      "startTime": 21000000,
+      "durationMs": 300000,
+      "kill": true,
+      "bossPercent": 0,
+      "byMechanic": {
+        "fire": {
+          "Lightwell": {
+            "count": 3,
+            "damage": 128906
+          },
+          "Mistweave": {
+            "count": 3,
+            "damage": 159468
+          },
+          "Regrowth": {
+            "count": 1,
+            "damage": 35028
+          },
+          "Stormfang": {
+            "count": 3,
+            "damage": 153485
+          },
+          "Backstabby": {
+            "count": 4,
+            "damage": 191915
+          },
+          "Emberwing": {
+            "count": 2,
+            "damage": 87025
+          }
+        },
+        "soak": {
+          "Shadowtide": {
+            "count": 3,
+            "damage": 298543
+          },
+          "Felblade": {
+            "count": 4,
+            "damage": 533418
+          }
+        },
+        "cleave": {
+          "Lightwell": {
+            "count": 3,
+            "damage": 169356
+          },
+          "Stormfang": {
+            "count": 2,
+            "damage": 154725
+          },
+          "Quickshot": {
+            "count": 2,
+            "damage": 164614
+          }
+        },
+        "deaths": {}
+      }
+    }
+  ]
+}
