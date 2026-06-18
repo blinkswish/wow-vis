@@ -6,15 +6,32 @@ import { extractMistakes, type MechanicPlayerStats } from "./extract-mistakes";
 import { loadReportCache, saveReportCache, newCache, eventsKey, type CachedEvent, type ReportCache } from "./cache";
 import type { WclFight, EventType, PlayerInfo } from "../src/types";
 
+const VALUE_FLAGS = new Set(["boss", "reports"]); // flags that take a following value
+
 function arg(name: string): string | undefined {
   const i = process.argv.indexOf(`--${name}`);
   return i >= 0 ? process.argv[i + 1] : undefined;
 }
 
+/** First positional argument (ignoring flags and their values). */
+function positional(): string | undefined {
+  const argv = process.argv.slice(2);
+  for (let i = 0; i < argv.length; i++) {
+    const a = argv[i];
+    if (a.startsWith("--")) {
+      if (VALUE_FLAGS.has(a.slice(2))) i++; // skip this flag's value
+      continue;
+    }
+    return a;
+  }
+  return undefined;
+}
+
 async function main() {
-  const boss = arg("boss");
-  if (!boss) throw new Error("usage: npm run fetch -- --boss <config-name>");
-  if (!/^[a-z0-9-]+$/.test(boss)) throw new Error("--boss must be a slug: lowercase letters, digits, hyphens");
+  // Boss config name: `npm run fetch -- midnight` or `--boss midnight`.
+  const boss = arg("boss") ?? positional();
+  if (!boss) throw new Error("usage: npm run fetch -- <boss>   (e.g. npm run fetch -- midnight)");
+  if (!/^[a-z0-9-]+$/.test(boss)) throw new Error("boss must be a slug: lowercase letters, digits, hyphens");
 
   const id = process.env.WCL_CLIENT_ID;
   const secret = process.env.WCL_CLIENT_SECRET;

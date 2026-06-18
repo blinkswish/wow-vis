@@ -80,8 +80,11 @@ For a new guild you really only change the `guild` block and the boss IDs:
 ### 4. Fetch your data
 
 ```bash
-npm run fetch -- --boss midnight
+npm run fetch -- midnight
 ```
+
+(The `--` is npm's, separating its own args from the script's. `midnight` is the
+config file name, `config/bosses/midnight.json`.)
 
 This finds all of the guild's reports for that boss, pulls the relevant events,
 and writes `public/data/midnight.json`. It picks up new raid nights automatically
@@ -209,7 +212,7 @@ calls at all. Pass `--no-cache` if you ever need to force a refresh.
 | Command | What it does |
 |---|---|
 | `npm run dev` | Dev server (hot reload) |
-| `npm run fetch -- --boss <name>` | Pull and aggregate into `public/data/<name>.json` |
+| `npm run fetch -- <name>` | Pull and aggregate into `public/data/<name>.json` |
 | `npm run build` | Type-check and build to `dist/` |
 | `npm run preview` | Serve the production build |
 | `npm test` | Unit tests |
